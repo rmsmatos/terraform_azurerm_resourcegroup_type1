@@ -16,12 +16,12 @@ Creates an Azure resource group given a name, location and tags (optional).
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_azurerm"></a> [azurerm](#requirement_azurerm) | ~> 2.98 |
+| <a name="requirement_azurerm"></a> [azurerm](#requirement_azurerm) | >= 2.98 |
 #### Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_azurerm"></a> [azurerm](#provider_azurerm) | ~> 2.98 |
+| <a name="provider_azurerm"></a> [azurerm](#provider_azurerm) | >= 2.98 |
 #### Modules
 
 No modules.
@@ -48,7 +48,7 @@ No modules.
 
 ### Example
 ```hcl
-module "azurecvt_resourcegroup_lock" {
+module "azurerm_resourcegroup_type1" {
   source   = "github.com/rmsmatos/terraform_azurerm_resourcegroup_type1?ref=v1.0.0"
   name     = "just-a-test"
   location = "westeurope"
